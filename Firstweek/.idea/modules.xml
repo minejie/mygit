@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ProGressOne.iml" filepath="$PROJECT_DIR$/ProGressOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstweek.iml" filepath="$PROJECT_DIR$/firstweek.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library_SlidingMenu/library_SlidingMenu.iml" filepath="$PROJECT_DIR$/library_SlidingMenu/library_SlidingMenu.iml" />
     </modules>
   </component>
 </project>

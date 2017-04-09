@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.example.lenovo.progressone"
+        applicationId "com.example.administrator.firstweek"
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
@@ -18,7 +18,9 @@ android {
         }
     }
 }
-
+repositories {
+    flatDir { dirs 'libs' }
+}
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
@@ -27,4 +29,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.0'
     testCompile 'junit:junit:4.12'
     compile 'com.google.code.gson:gson:2.8.0'
+    compile(name: 'sliding_menu_lib', ext: 'aar')
 }
